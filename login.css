@@ -45,9 +45,13 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #0056b3;
 }
-.message {
+.message-berhasil {
     text-align: center;
     margin-top: 10px;
-    color: #4CAF50; /* Warna teks untuk pesan berhasil */
-    color: #cc0000; /* Warna teks untuk pesan error */
+    color: green; /* Warna teks untuk pesan Login Berhasil */
+}
+.message-gagal {
+    text-align: center;
+    margin-top: 10px;
+    color: red; /* Warna teks untuk pesan Username/Password tidak sesuai */
 }
